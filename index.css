@@ -12,6 +12,48 @@ h1 {
   font-size: 60px;
 }
 
+.nav-menu {
+  height: 172px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  height: 172px;
+  margin: 0 100px;
+}
+
+.menu li a {
+  background-color: orange;
+  color: white;
+  height: 172 px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid #333;
+  display: block;
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.banner {
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+img {
+  border-radius: 10px;
+}
+.hakkimizda {
+  height: 250px;
+}
+
 h2,
 h3,
 h4,
@@ -23,16 +65,32 @@ h6 {
   font-size: 30px;
 }
 
+.yemekler {
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aperatif {
+  height: 750px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.aperatif-sol {
+  display: flex;
+  align-items: center;
+}
+
 p {
   font-size: 16px;
   font-family: roboto;
   padding: 10px;
   line-height: 1.4;
 }
+/*
 
-img {
-  border-radius: 10px;
-}
+
 
 .content-row {
   display: flex;
@@ -119,4 +177,4 @@ footer nav anchor.hover {
 footer .footer-content .copyright {
   padding: 20px 0;
   text-align: center;
-}
+} */
